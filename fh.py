@@ -118,5 +118,6 @@ def get():
 def greet(nm:str):
     return f"Good day to you, {nm}!"
 
+if _name_="__main__":
+    serve()
 
-serve()
